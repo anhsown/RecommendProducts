@@ -1,4 +1,4 @@
-# Product Recommendation System  (ContentBased filtering)
+# Product Recommendation System  (ContentBased Filtering)
 ## Vietnamese Skincare Dataset
 
 ---
@@ -220,7 +220,7 @@ get_recommendations_by_keyword_gen("dưỡng ẩm")
 
 ## Author
 
-Sparkle Sown  
+Sown  
 
 - Applied AI / Data Science  
 - Focus: NLP, Recommendation Systems 
