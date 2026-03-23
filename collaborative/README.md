@@ -159,7 +159,7 @@ Final Choice: Surprise (for better performance and deployment)
 
 ## Author
 
-Sparkle Sown
+Sown
 
 - Applied AI / Data Science
 - Focus: Recommendation Systems
