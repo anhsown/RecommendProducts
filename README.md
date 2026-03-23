@@ -22,18 +22,14 @@ The system suggests similar products based on textual descriptions, helping user
 ## System Architecture
 
 Raw Data (CSV)
-  ↓
+      ↓
 Text Preprocessing
-      
       ↓
 Vectorization (TF-IDF)
-      
       ↓
 Similarity Computation
-      
       ↓
 Recommendation Engine
-
 ---
 
 ## Dataset
