@@ -36,7 +36,7 @@
 * Users show distinct preferences for product types and brands
 * These insights confirm that CF methods are suitable and can benefit from personalized user patterns.
 ### E. Model 1: ALS (Spark)
-* Pipeline:
+* Pipeline
 ** Train ALS model on user-product rating matrix
 ** Optimize latent factors to minimize reconstruction error on known ratings
 ** Generate top-N recommendations per user using recommendForUserSubset
@@ -47,9 +47,9 @@
 ** Pros: Personalized, captures user taste well, handles large datasets efficiently
 ** Cons: Slightly slower for real-time querying, may require tuning for cold-start users
 ### F. Model 2: Surprise
-* Pipeline:
-** Model Selection and Training
-*** Algorithms tested:
+*  Pipeline:
+**  Model Selection and Training
+***  Algorithms tested:
 | Algorithm |	RMSE (Mean) |	Elapsed Time (s) |
 | KNNBaseline |	0.720 |	7.88 |
 | SVDpp	| 0.729	| 6.90 |
@@ -61,11 +61,11 @@
 | CoClustering	| 0.819	| 4.14 |
 | SlopeOne	| 0.826	| 0.90 |
 | NMF	| 0.869	| 7.88 |
-*** Observation:
-**** Lower RMSE indicates higher predictive accuracy.
-**** SVDpp achieves low RMSE (0.729) while maintaining reasonable runtime (~6.9s).
+***  Observation:
+****  Lower RMSE indicates higher predictive accuracy.
+****  SVDpp achieves low RMSE (0.729) while maintaining reasonable runtime (~6.9s).
 <img width="1396" height="520" alt="image" src="https://github.com/user-attachments/assets/48585272-3f4f-444f-a3c2-457759f10592" />
-**** -> Choose SVDpp
+****  -> Choose SVDpp
 ** Train SVDpp on explicit ratings
 ** Predict ratings for all user-product pairs
 ** Select top-N products based on estimated scores
