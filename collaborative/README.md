@@ -71,7 +71,7 @@
 **** Lower RMSE indicates higher predictive accuracy.
 **** SVDpp achieves low RMSE (0.729) while maintaining reasonable runtime (~6.9s).
 <img width="1396" height="520" alt="image" src="https://github.com/user-attachments/assets/48585272-3f4f-444f-a3c2-457759f10592" />
-****  -> Choose SVDpp
+**** -> Choose SVDpp
 
 ** Train SVDpp on explicit ratings
 ** Predict ratings for all user-product pairs
