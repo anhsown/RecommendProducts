@@ -74,9 +74,13 @@
 **** -> Choose SVDpp
 
 ** Train SVDpp on explicit ratings
+
 ** Predict ratings for all user-product pairs
+
 ** Select top-N products based on estimated scores
+
 * Evaluation:
+
 ** RMSE ~ 0.72 (slightly higher than ALS)
 ** Predicted scores mostly uniform (5.0) for top recommendations
 ** Execution time per user: ~0.03 seconds (very fast)
