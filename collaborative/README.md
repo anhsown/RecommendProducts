@@ -31,20 +31,20 @@ The product description (mo_ta) is the core textual feature used to compute simi
 
 ### C. Data Preprocessing
 
-To ensure high-quality textual features, multiple preprocessing steps were applied.
+* To ensure high-quality textual features, multiple preprocessing steps were applied.
 
-Steps performed:
-Text normalization
-Remove extra whitespace
-Standardize text format
-Vietnamese word tokenization
-Applied word_tokenize to preserve compound words such as:
-da_dầu, chống_nắng, nhạy_cảm
-Lowercasing and special character removal
-Stop-word removal
-Final processed text columns
-content_gem_re → used for Gensim model
-processed_content → used for TF-IDF cosine model
+* Steps performed:
+* Text normalization
+* Remove extra whitespace
+* Standardize text format
+* Vietnamese word tokenization
+* Applied word_tokenize to preserve compound words such as:
+** da_dầu, chống_nắng, nhạy_cảm
+* Lowercasing and special character removal
+* Stop-word removal
+* Final processed text columns
+* content_gem_re → used for Gensim model
+* processed_content → used for TF-IDF cosine model
 
 These steps significantly reduce noise and improve semantic representation.
 
