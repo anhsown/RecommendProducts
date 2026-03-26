@@ -70,18 +70,20 @@ Captures ALS personalization while leveraging fast Surprise scoring
 ### H. Recommendation Examples
 * User ID = 23
 
-* ALS Recommendations:
+** ALS Recommendations:
 
-* Product	Predicted Rating	Notes
-Sữa Rửa Mặt Naris Acmedica	6.66	High personalization, matches user history
-Nước Dưỡng Da Chinoshio	6.41	Matches brand preference
-Serum B.O.M 8 Loại Trà	6.19	Related to previously rated products
+| Product | Predicted Rating | Notes |
+|---------|----------------|-------|
+| Sữa Rửa Mặt Naris Acmedica | 6.66 | High personalization, matches user history |
+| Nước Dưỡng Da Chinoshio | 6.41 | Matches brand preference |
+| Serum B.O.M 8 Loại Trà | 6.19 | Related to previously rated products |
 
 * Surprise Recommendations:
 
-* Product	Predicted Rating	Notes
-Nước Dưỡng Da Chinoshio	5.0	Fast scoring, limited personalization
-Dầu Tẩy Trang Kosé Softymo	5.0	Matches general user preference
+| Product | Predicted Rating | Notes |
+|---------|----------------|-------|
+| Nước Dưỡng Da Chinoshio | 5.0 |	Fast scoring, limited personalization |
+| Dầu Tẩy Trang Kosé Softymo |	5.0 |	Matches general user preference |
 * Observations:
 ** ALS gives a more diverse set of high-quality personalized products
 ** Surprise gives uniformly high scores and is extremely fast
